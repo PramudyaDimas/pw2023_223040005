@@ -16,17 +16,13 @@ $nim = '5';
         <?php
         echo "Aku adalah angka <b> $nim </b> <br>";
         // perkalian
-        $hasilkali = $nim * 5;
-        echo "Jika aku dikali 5, maka aku sekarang menjadi <b> $hasilkali </b><br> ";
+        echo "Jika aku dikali 5, maka aku sekarang menjadi <b>" . ($nim = $nim * 5) . "</b><br> ";
         // pembagian
-        $hasilbagi = $hasilkali / 2;
-        echo "Jika aku dibagi 2, maka aku sekarang menjadi <b> $hasilbagi </b> <br> ";
+        echo "Jika aku dibagi 2, maka aku sekarang menjadi <b>" . ($nim = $nim / 2) . "</b> <br> ";
         // penambahan
-        $hasiltambah = $hasilbagi + 75;
-        echo "Jika aku ditambah 75, maka aku sekarang menjadi <b> $hasiltambah </b> <br> ";
+        echo "Jika aku ditambah 75, maka aku sekarang menjadi <b>" . ($nim = $nim + 75) . " </b> <br> ";
         // pengurangan
-        $hasilkurang = $hasiltambah - 20;
-        echo "Jika aku dikurang 20, maka aku sekarang menjadi <b> $hasilkurang </b> <br> ";
+        echo "Jika aku dikurang 20, maka aku sekarang menjadi <b>" . ($nim = $nim - 20) . " </b> <br> ";
         ?>
 
 
