@@ -1,7 +1,3 @@
-<?php
-$topi = '"Topi saya Bundar';
-$bundar = ' Bundar Topi saya."';
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,9 +9,8 @@ $bundar = ' Bundar Topi saya."';
 </head>
 
 <body>
-    <h2><i>
-            <?php echo "$topi,$bundar"; ?>
-        </i>
+    <h2>
+        <?php echo "TOPI SAYA BUNDAR, BUNDAR TOPI SAYA"; ?>
     </h2>
 </body>
 
