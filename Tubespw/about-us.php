@@ -13,6 +13,7 @@ include('includes/config.php');
   <meta name="author" content="">
 
   <title>About us</title>
+  <!-- icon untuk web -->
   <link rel="icon" type="image/x-icon" href="images/berita esports.png">
 
 

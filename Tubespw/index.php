@@ -12,6 +12,7 @@ include('includes/config.php');
    <meta name="description" content="">
    <meta name="author" content="">
    <title>Berita Esports | Home Page</title>
+   <!-- icon untuk web -->
    <link rel="icon" type="image/x-icon" href="images/berita esports.png">
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
