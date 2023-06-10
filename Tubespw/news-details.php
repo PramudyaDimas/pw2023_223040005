@@ -6,7 +6,7 @@ if (empty($_SESSION['token'])) {
 }
 
 if (isset($_POST['submit'])) {
-   //Verifying CSRF Token
+
    if (!empty($_POST['csrftoken'])) {
       if (hash_equals($_SESSION['token'], $_POST['csrftoken'])) {
          $name = $_POST['name'];
@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
    <link rel="icon" type="image/x-icon" href="images/berita esports.png">
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   <!-- Custom styles for this template -->
+
    <link href="css/modern-business.css" rel="stylesheet">
    <link rel="stylesheet" href="css/icons.css">
 </head>
@@ -66,7 +66,7 @@ if ($result->num_rows > 0) {
    <!-- Page Content -->
    <div class="container-fluid">
       <div class="row" style="margin-top: 4%">
-         <!-- Blog Entries Column -->
+         <!-- kolom blog -->
          <div class="col-md-9 mt-5">
             <!-- Blog Post -->
             <?php

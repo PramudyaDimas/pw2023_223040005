@@ -15,10 +15,10 @@ include('includes/config.php');
   <title>About us</title>
   <link rel="icon" type="image/x-icon" href="images/berita esports.png">
 
-  <!-- Bootstrap core CSS -->
+
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
+
   <link href="css/modern-business.css" rel="stylesheet">
   <link rel="stylesheet" href="css/icons.css">
 </head>
@@ -27,7 +27,7 @@ include('includes/config.php');
 
   <!-- Navigation -->
   <?php include('includes/header.php'); ?>
-  <!-- Page Content -->
+  <!-- Page konten -->
   <div class="container">
 
     <?php
@@ -63,9 +63,7 @@ include('includes/config.php');
 
   <!-- Footer -->
   <?php include('includes/footer.php'); ?>
-  <!--  Author Name: Mayuri K. 
- for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- Visit website : www.mayurik.com -->
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
