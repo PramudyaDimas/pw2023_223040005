@@ -20,7 +20,7 @@ include('includes/config.php');
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-   <!-- Custom styles for this template -->
+
    <link href="css/modern-business.css" rel="stylesheet">
    <link rel="stylesheet" href="css/icons.css">
 </head>
