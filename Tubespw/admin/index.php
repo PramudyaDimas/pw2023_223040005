@@ -15,6 +15,12 @@ if (isset($_POST['login'])) {
 
         $_SESSION['login'] = $_POST['username'];
         $_SESSION['utype'] = $num['userType'];
+        if ($row['status'] == 'admin') {
+            header("Location: dashboard.php");
+        } elseif ($row['status'] == 'user') {
+            header("Location: Tubespw/index.php");
+            exit;
+        }
         echo "<script type='text/javascript'> document.location = 'dashboard.php'; </script>";
     } else {
         echo "<script>alert('Invalid Details');</script>";
@@ -34,6 +40,7 @@ if (isset($_POST['login'])) {
 
     <!-- App title -->
     <title>Berita Esports | Admin </title>
+    <link rel="icon" type="image/x-icon" href="assets/images/berita esports.png">
 
     <!-- App css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -56,7 +63,7 @@ if (isset($_POST['login'])) {
         <div class="container m-t-50">
             <div class="row align-items-center m-t-50">
                 <div class="col-md-8 text-center">
-                    <img src="assets/images/blog-reading.png" width="auto">
+                    <img src="assets/images/login2.png" width="auto">
                 </div>
                 <div class="col-md-4 ">
 
@@ -66,10 +73,10 @@ if (isset($_POST['login'])) {
                             <div class="account-logo-box">
                                 <h2 class="text-uppercase">
                                     <a href="index.php" class="text-success">
-                                        <span><img src="assets/images/logo.png" alt="" width="350px"></span>
+                                        <span><img src="assets/images/berita esports.png" alt="" width="350px"></span>
                                     </a>
                                 </h2>
-                                <p>Please sign-in to your account and start the adventure</p>
+                                <p>Please sign-in to your account </p>
                                 <!--<h4 class="text-uppercase font-bold m-b-0">Sign In</h4>-->
                             </div>
                             <div class="account-content">

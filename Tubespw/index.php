@@ -67,10 +67,10 @@ include('includes/config.php');
                            <a class="badge bg-warning text-decoration-none link-light" style="color:#fff">ESports</a>
                         </p>
                         <p class="m-0"><small> Posted on 2023-06-04 00:20:09</small></p>
-                        <a href="#" class="card-title text-decoration-none text-dark">
+                        <a href="newsdetails1.php" class="card-title text-decoration-none text-dark">
                            <h5 class="card-title">BTR Vyn Is Real, Eks Kapten RRQ Hijrah ke Bigetron Alpha untuk MPL ID S12</h5>
                         </a>
-                        <!-- <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="">Read More &rarr;</a> -->
+                        <a href="newsdetails1.php" class="">Read More &rarr;</a>
                      </div>
                   </div>
                   <div class="card mb-4 border-0">
@@ -86,7 +86,7 @@ include('includes/config.php');
                         <a href="#" class="card-title text-decoration-none text-dark">
                            <h5 class="card-title">Ana Comeback? Joki TI Gabung ke Tim Mana Jelang The International 12?</h5>
                         </a>
-                        <!-- <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="">Read More &rarr;</a> -->
+                        <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="">Read More &rarr;</a>
                      </div>
                   </div>
                   <div class="card mb-4 border-0">
@@ -102,7 +102,7 @@ include('includes/config.php');
                         <a href="#" class="card-title text-decoration-none text-dark">
                            <h5 class="card-title">Kalahkan DRX, Paper Rex Juara Liga VCT Pacific 2023</h5>
                         </a>
-                        <!-- <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="">Read More &rarr;</a> -->
+                        <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="">Read More &rarr;</a>
                      </div>
                   </div>
                </div>
